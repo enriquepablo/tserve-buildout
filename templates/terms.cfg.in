@@ -1,0 +1,9 @@
+[default]
+http_host = ${config:http_host}
+http_port = ${config:http_port}
+plugins = ${config:plugins}
+dbms = ${config:dbms}
+dbname = ${config:dbname}
+kb_host = ${config:kb_host}
+kb_port = ${config:kb_port}
+base_dir = ${buildout:directory}
